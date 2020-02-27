@@ -1,0 +1,25 @@
+{
+  "name": "thomsonjf/basket",
+  "description": "PHP >7.1.1 Basket for Acme Widget Sales",
+  "type": "package",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "James Thomson",
+      "email": "james@ravenlabs.co.uk",
+      "homepage": "http://www.jamesthomson.co.uk"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\Widgets\\Sales\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
