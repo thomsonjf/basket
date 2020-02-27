@@ -1,3 +1,7 @@
+# Ignore vendor
 vendor/
+
 composer.lock
-.idea/
+
+# Ignore phpstorm files
+.idea/*
